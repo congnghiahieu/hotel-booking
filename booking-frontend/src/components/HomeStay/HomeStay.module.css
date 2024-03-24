@@ -1,0 +1,70 @@
+.HomeStay {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 8px;
+}
+.HomeStay_img {
+  width: 100%;
+  height: 200px;
+  position: relative;
+  border: none;
+}
+.Img_homeStay {
+  width: 100%;
+  height: 200px;
+}
+.HomeStay_name {
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  display: inline-block;
+  display: -webkit-box;
+}
+.HomeStay_location_star {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--btn-color);
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.HomeStay_star {
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+}
+
+.HomeStay_location {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.price_text {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  color: rgb(115, 115, 115);
+}
+
+.HomeStay_price {
+  display: flex;
+  font-size: 16px;
+  font-weight: 500;
+  color: #e1324b;
+}
+.HomeStay_point {
+  position: absolute;
+  right: 15px;
+  top: 5px;
+  border-radius: 50%;
+  background-color: var(--btn-color);
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 600;
+}

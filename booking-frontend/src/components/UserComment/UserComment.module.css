@@ -1,0 +1,61 @@
+.comment{
+    display: flex;
+    padding-top:10px ;
+    border-top:1px solid var(--border-color);   
+    margin-bottom: 40px;
+    /* align-items: center; */
+    gap:5px;
+    flex-direction: column;
+}
+.comment a{
+    text-decoration: none;
+    color: black;
+}
+.hotel{
+    display: flex;
+    /* flex-direction: column; */
+    gap:10px;
+    align-items: center;
+}
+.hotel img{
+    height: 180px;
+    width: 200px;
+    background-color:antiquewhite;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12);
+}
+
+.UserComment{
+    width: 70%;
+    display: flex;
+    height: 100%;
+    margin-top: 10px;
+    border-radius: 8px;
+    background-color: #f5f5f5;
+    margin-right: 10px;
+    flex-direction: column;
+    /* box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 8px 3px; */
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12);
+}
+.subComment{
+    padding: 15px 30px;
+}
+.title{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.content{
+    font-size: 14px;
+    color:#7a868d;
+    padding-left: 8px;
+    margin-bottom: 20px;
+}
+.timeComment{
+    padding-bottom: 10px;
+    font-size: 14px;
+    color:#7a868d;
+    padding-left: 8px; 
+    font-weight: 400;
+    border-bottom: 1px solid var(--border-color);
+    margin-bottom: 10px;
+}

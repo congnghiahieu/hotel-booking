@@ -1,0 +1,65 @@
+.hotelInfor {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 20px;
+  width: 50%;
+  cursor: default;
+  justify-content: space-between;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.hotelInfor p {
+  font-size: 12px;
+}
+
+.hotelInfor h3 {
+  letter-spacing: 1px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.hotelInfor #one {
+  color: rgb(49, 112, 231);
+}
+
+.hotelInfor #two {
+  color: rgb(225, 45, 45);
+  font-weight: 500;
+}
+
+.hotelInfor #three {
+  color: rgb(40, 135, 28);
+  font-weight: 500;
+}
+
+.hotelInfor #four {
+  background: rgb(216, 245, 213);
+  color: rgb(40, 135, 28);
+  font-weight: 500;
+  width: fit-content;
+  padding: 4px 8px;
+}
+
+.famous {
+  display: flex;
+  padding: 5px;
+  /* justify-content: center; */
+  align-items: center;
+  border-top: 1px solid #bec2c9;
+}
+
+.famous p {
+  font-weight: 600;
+  width: 80px;
+  font-size: 14px;
+}
+
+.famous hr {
+  width: 150px;
+  size: 1px;
+}

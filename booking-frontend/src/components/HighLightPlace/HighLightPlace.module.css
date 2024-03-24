@@ -1,0 +1,31 @@
+.place {
+  width: 125px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+@keyframes pulse {
+  50% {
+    opacity: 0.5;
+  }
+}
+.place_img {
+  background-color: rgb(199, 199, 199);
+  animation: pulse 0.5s cubic-bezier(0.4, 0, 0.6, 1) 0.5s;
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+}
+.place_img:hover {
+  transform: scale(1.2);
+}
+.place_name {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}

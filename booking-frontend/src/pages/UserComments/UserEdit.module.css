@@ -1,0 +1,65 @@
+.container {
+    display: flex;
+    padding: 0 15%;
+    width: 100vw;
+    height: 100%;
+}
+
+.Sidebar {
+    background-color: #fff;
+    width: 25%;
+    box-shadow: 7px 0 8px #e9ebee;
+}
+.Sidebar a{
+    font-weight: 600;
+    padding: 20px 0px;
+    display: flex;
+    color: #5392f9;
+    text-decoration: none;
+    gap: 5px;
+    align-items: center;
+    letter-spacing: 1px;
+}
+.Sidebar a:hover{
+    background-color: #5392f9;
+    color: #fff;
+}
+.Sidebar hr{
+    background-color: #ededed;
+    height: 1px;
+    margin: 30px;
+}
+.profile{
+    padding: 20px 0px;
+    display: flex;
+    color:#333;
+    gap: 5px;
+    align-items: center;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.Sidebar li{
+    list-style: none;
+    /* padding-left: 30px; */
+    color: #5392f9;
+}
+.Show{
+    padding: 0 50px;
+    width: 75%;
+}
+.Show .yourComment {
+    padding: 30px 0;
+    font-weight: 500;
+    font-size: 20px;
+}
+.Show #one{
+    padding:12px;
+    background-color: rgb(83, 146, 249);
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+.Show #one:hover{
+   opacity: 0.7;
+}
